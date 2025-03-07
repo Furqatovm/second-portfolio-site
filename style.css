@@ -289,6 +289,8 @@ nav{
 .answer{
     display: none;
     padding-bottom: 10px;
+    max-width: 600px;
+    padding-bottom: 20px;
 }
 .faq.active .answer{
     display: block;
@@ -300,15 +302,197 @@ nav{
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 30px;
+    margin-top: 20px;
+
 }
 .wrapper-tog{
     max-width: 700px;
+    border-bottom: 1px solid #9194a1;
 
 }
 
+.wrapper-tog-tugma{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+footer{
+    background-color: #5368df;
+
+}
+.wrapper-footer{
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.footer-span{
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: white;
+}
+.footer-h3{
+    font-size: 35px;
+    max-width: 500px;
+    color: white;
+}
+
+.wrapper-input-email{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    position: relative;
+    padding-bottom: 5px;
+    
+}
+#email-w{
+    display: flex;
+    flex-direction: column;
+    /* border: 5px solid #fa5757;
+    background-color: #fa5757;
+    width: 300px; */
+    /* max-width: 300px; */
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: #fa5757;
+    /* padding-bottom: 30px; */
+
+    
+    
+}
+.error{
+    position: absolute;
+    left: 85%;
+    
+
+}
+#email{
+    padding: 15px 25px;
+    padding-right: 50px;
+    color: #252b46;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+
+}
+.input-span{
+    color: white;
+    padding-bottom: 5px;
+    
+}
+
+.submit{
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fa5757;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+}
 
 
+form{
+    display: flex;
+    gap: 30px;
+}
 
+.footer-above{
+    background-color: #252b46;
+    
+}
+.wrapper-footer-above{
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer-above-left{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+
+}
+.color{
+    color: white;
+}
+
+.footer-above-right{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.wrapper-menu, .wrapper-close{
+    background-color: transparent;
+    border: none;
+}
+
+#close{
+    display: none;
+}
+header{
+    position: relative;
+}
+
+
+.wrapper-linkss{
+    background-color: transparent;
+    border: none;
+}
+
+.wrapper-footer-above{
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+#menuu{
+    display: none;
+}
+
+.linklar{
+    /* color: white;
+    font-size: 22px; */
+    /* border-bottom: 2px solid #9194a1;
+    padding-bottom: 15px; */
+}
+
+#closee{
+    display: none;
+    font-size: 22px;
+    color: white;
+}
+
+.login:hover{
+    cursor: pointer;
+}
+
+nav{
+    position: relative;
+}
+
+#closee:hover{
+    cursor: pointer;
+}
 
 
 @media (max-width: 768px) {
@@ -319,6 +503,10 @@ nav{
         max-width: 700px;
         margin-right: auto;
         margin-left: auto;
+        display: flex;
+        justify-content: space-between;
+         gap: 250px;
+        align-items: center;
     }
     .wrapper-menu{
         display: block;
@@ -370,14 +558,19 @@ nav{
         justify-content: center;
         padding-top: 40px;
     }
-    /* .wrapper-before-section{
+    .wrapper-footer-above{
         display: flex;
         flex-direction: column;
         gap: 20px;
-        align-items: center;
-        justify-content: center;
     }
-     */
+    .footer-above-left{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+
+
 }
 
 @media (max-width: 500px) {
@@ -405,5 +598,31 @@ nav{
         justify-content: center;
         gap: 20px;
      }
+     .answer{
+        max-width: 400px;
+     }
+     .wrapper-tog{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 400px;
+
+     }
+     .togle-1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+     }
+     form{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+     }
+     .footer-above-left{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
 
 }

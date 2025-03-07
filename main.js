@@ -40,31 +40,50 @@ document.querySelectorAll(".faq").forEach(item => {
     });
 });
 
-// next1.addEventListener("click", function(){
-//     page1.style.display ="block";
-//     next1.style.borderColor ="#fa5757";
-//     next2.style.border ="none"
-//     next3.style.border ="none"
-//     next3.style.paddingBottom ="0";
-//     page3.style.display ="none";
-//     page2.style.display ="none"
-//     // next3.style.display ="none"
+
+// let menuu =document.getElementById("menu-wrap");
+
+// let closee =document.getElementById("closee");
+
+// let nav =document.getElementById("nav")
+
+// let header =document.getElementById("head");
+
+
+// let links =document.getElementById("linkchalar");
+// menuu.addEventListener("click", function(){
+//     nav.style.display ="block";
+//     nav.style.width ="100vw";
+//     nav.style.height ="100vh";
+//     nav.style.backgroundColor ="#252b46";
+//     nav.style.position ="fixed";
+//     header.style.display ="flex";
+//     nav.style.left ="0";
+//     nav.style.top ="0"
+//     header.style.alignItems ="center";
+//     header.style.justifyContent ="center";
+//     links.style.color ="white";
+//     header.style.opacity ="90%";
+//     nav.style.display ="flex";
+//     nav.style.flexDirection ="column";
+//     // nav.style.gap ="20px";
+//     nav.style.justifyContent ="flex-start";
+//     nav.style.gap ="30px";
+//     nav.style.paddingTop ="30%";
+//     closee.style.display ="block";
+//     closee.style.position ="absolute";
+//     closee.style.bottom ="80%";
+//     closee.style.left ="80%";
+//     closee.style.fontSize ="28px";
+// })
+
+
+// closee.addEventListener("click", function(){
+//     closee.style.display ="none";
+//     nav.style.display ="none";
 
 // })
 
-// next2.addEventListener("click", function(){
-//     page2.style.display ="block";
-//     page1.style.display ="none";
-//     page3.style.display ="none";
-//     next1.style.border ="none"
-//     next1.style.paddingBottom ="0";
-//     next2.style.borderColor ="#fa5757";
-//     next3.style.border ="none"
-// })
-// next3.addEventListener("click", function(){
-//     page3.style.display ="block";
-//     page1.style.display ="none";
-//     page2.style.display ="none";
-//     next3.style.borderColor ="4px solid #fa5757";
-//     next2.style.border ="none"
-// })
+
+
+
