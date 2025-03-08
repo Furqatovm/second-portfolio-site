@@ -41,14 +41,81 @@ document.querySelectorAll(".faq").forEach(item => {
 });
 
 
-// let menuu =document.getElementById("menu-wrap");
 
-// let closee =document.getElementById("closee");
 
-// let nav =document.getElementById("nav")
 
-// let header =document.getElementById("head");
 
+
+
+
+let menuu =document.getElementById("menu-wrap");
+
+let closee =document.getElementById("yopish");
+
+let ochil =document.getElementById("menubarr");
+
+let header =document.getElementById("head");
+let footer =document.getElementById("footerr");
+
+
+let button =document.createElement("button");
+button.className ="hero-btn"
+
+let links =document.getElementsByClassName("linklarr");
+for (let link of links){
+    link.style.fontSize ="25px";
+    link.style.letterSpacing ="2px";
+    link.style.borderBottom ="2px solid lightgray";
+    link.style.padding ="20px 10px"
+}
+ochil.style.display ="none"
+
+let closing=document.getElementById("closing");
+
+menuu.addEventListener("click", function(){
+    menuu.style.display ="none"
+    ochil.style.display ="block";
+    ochil.style.position ="fixed";
+    ochil.style.backgroundColor ="#252b46";
+    ochil.style.width ="100vw";
+    ochil.style.height ="100vh";
+    ochil.style.opacity ="90%";
+    ochil.style.display ="flex";
+    header.style.display ="flex";
+    header.style.alignItems ="center";
+    header.style.justifyContent ="center"
+    ochil.style.alignItems ="center";
+    ochil.style.justifyContent ="center";
+    ochil.style.top ="000.1%";
+    ochil.style.right ="0.1%";
+    closee.style.display ="block";
+    closing.style.display ="flex";
+    closing.style.maxWidth ="500px";
+    closing.style.marginLeft ="auto";
+    closing.style.marginRight ="auto";
+    closing.style.gap ="80px";
+    closee.style.fontSize ="22px";
+    closee.style.fontWeight ="bold";
+    closee.style.color ="white";
+    footer.style.marginTop ="20%";
+    ochil.style.zIndex ="+2";
+
+})
+
+let closeWrap =document.getElementById("close-wrap");
+
+closeWrap.addEventListener("click", function(){
+    ochil.style.display ="none";
+    closee.style.display ="none";
+    menuu.style.display ="block";
+})
+
+
+// let linkFirst =document.getElementById("linkchalar");
+// let link1 =document.getElementById("linkchalar1");
+// let link2 =document.getElementById("linkchalar2");
+
+// let btn =document.getElementById("loginn")
 
 // let links =document.getElementById("linkchalar");
 // menuu.addEventListener("click", function(){
@@ -75,6 +142,20 @@ document.querySelectorAll(".faq").forEach(item => {
 //     closee.style.bottom ="80%";
 //     closee.style.left ="80%";
 //     closee.style.fontSize ="28px";
+//     link1.style.color ="white";
+//     linkFirst.style.color ="white";
+//     link2.style.color ="white";
+//     linkFirst.style.borderBottom ="2px solid #9194a1";
+//     linkFirst.style.paddingBottom ="10px";
+//     link1.style.borderBottom ="2px solid #9194a1";
+//     link1.style.paddingBottom ="10px";
+//     link2.style.borderBottom ="2px solid #9194a1";
+//     link2.style.paddingBottom ="10px";
+//     linkFirst.style.fontSize ="30px";
+//     link1.style.fontSize ="30px";
+//     link2.style.fontSize ="30px";
+//     btn.style.fontSize ="30px";
+
 // })
 
 

@@ -469,18 +469,14 @@ header{
     display: none;
 }
 
-.linklar{
+/* .linklar{
     /* color: white;
     font-size: 22px; */
     /* border-bottom: 2px solid #9194a1;
     padding-bottom: 15px; */
-}
+*/
 
-#closee{
-    display: none;
-    font-size: 22px;
-    color: white;
-}
+
 
 .login:hover{
     cursor: pointer;
@@ -494,6 +490,17 @@ nav{
     cursor: pointer;
 }
 
+#yopish:hover{
+    cursor: pointer;
+}
+
+/* #menubarr{
+    display: none;
+} */
+
+header{
+    position: relative;
+}
 
 @media (max-width: 768px) {
     nav{
@@ -571,6 +578,7 @@ nav{
 
 
 
+
 }
 
 @media (max-width: 500px) {
@@ -581,7 +589,7 @@ nav{
 
      }
      .btn-2{
-        border:none;
+        border: 2px solid #5368df;
         
      }
      .wrapper-first-next{
@@ -625,4 +633,95 @@ nav{
         gap: 20px;
     }
 
+    .hero-right-img{
+        
+        width: 100%;
+    }
+    .hero-h1{
+        font-size: 40px;
+    }
+    .hero-p{
+        font-size: 16px;
+        max-width: 450px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .wrapper-hero-btn{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .btn-1:hover{
+        background-color: white;
+        color: #5368df;
+        border: 2px solid #5368df;
+    }
+    .unique-btn{
+        box-shadow: 3px 4px 10px solid lightgray;
+        border: 2px solid #5368df;
+        color: #5368df;
+    }
+    .btn-2:hover{
+        background-color: #5368df;
+        color: white;
+
+    }
+
+    #wrapper-next{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        border-top: 2px solid lightgray;
+    }
+    .linee{
+        border-bottom: 2px solid lightgray;
+        width: 80%;
+    }
+    .rasm{
+        width: 100%;
+    }
+    .next-sarlavha{
+        font-size: 24px;
+
+    }
+    .matnn{
+        max-width: 300px;
+    }
+    .togle-1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        max-width: 300px;
+    }
+    .togle-matn{
+        font-size: 16px;
+    }
+    .togle-matn{
+        width: 300px;
+    }
+
+    .footer-span{
+        font-size: 16px;
+        text-align: center;
+    }
+    .footer-h3{
+        font-size: 26px;
+        text-align: center;
+    }
+    #email{
+        font-size: 16px;
+
+    }
+    #value{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .general-logos{
+        width: 300px;
+    }
+    
+    
+    
 }
