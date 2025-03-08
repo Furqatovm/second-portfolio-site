@@ -94,6 +94,9 @@ nav{
     margin-top: 50px;
     margin-bottom: 70px;
 }
+.header-left{
+    display: none;
+}
 
 .btn-1{
     color: #5368df;
@@ -721,6 +724,44 @@ header{
     .general-logos{
         width: 300px;
     }
+    /* header{
+        display: none;
+    } */
+
+    .general-logos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* width: 500px;
+    height: 600px; */
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 4px 10px lightblue;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    border-radius: 5px;
+    max-width: 300px;
+    height: auto;
+}
+.logos-names{
+    font-size: 24px;
+
+}
+
+.wrapper-logos{
+    display: flex;
+    gap: 40px;
+    max-width: 450px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+    margin-top: 60px;  
+    margin-bottom: 50px; 
+
+}
+body{
+    overflow-x: hidden;
+}
     
     
     
