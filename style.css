@@ -762,6 +762,13 @@ header{
 body{
     overflow-x: hidden;
 }
+.rams{
+    width: 100%;
+}
+.next-left{
+    width: 500px;
+    
+}
     
     
     
